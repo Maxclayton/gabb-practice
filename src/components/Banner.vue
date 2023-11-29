@@ -38,6 +38,7 @@ h1 {
     margin: 0;
     font-size: 36px;
     font-weight: 300;
+    color: #FFF;
 }
 
 @media screen and (max-width: 730px) {

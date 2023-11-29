@@ -94,5 +94,9 @@ input.p-inputtext.p-component {
  .inputs {
     width: 300px;
  }
+
+ button {
+    width: 300px;
+ }
 }
 </style>
