@@ -8,7 +8,6 @@
         <InputText  v-model="value" placeholder="Password" type="password" />
         <div class="forgot-container">
             <a>Forgot Password?</a>
-
         </div>
         <button>Login</button>
     </div>
@@ -22,11 +21,26 @@ import InputText from 'primevue/inputtext';
 </script>
 
 <style scoped>
- h2 {
+.forgot-container {
+    display: flex;
+    width: 100%;
+    padding-left: 25px;
+}
+
+.h2 {
     color: #313638;
     font-size: 36px;
-    font-weight: 400
- }
+    font-weight: 400;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 450px;
+    align-items: center;
+}
+
 .login-fields {
     display: flex;
     flex-direction: column;
@@ -38,12 +52,33 @@ import InputText from 'primevue/inputtext';
     padding-bottom: 100px;
 }
 
-.inputs {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    width: 450px;
-    align-items: center;
+a {
+    font-size: 16px;
+    line-height: 16px;
+    color: #236cd8;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+a:hover {
+    color: #00B1E3;
+}
+
+button {
+    width: 375px;
+    background: #00b1e3;
+    border: none;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    border-radius: 6px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #236cd8;
 }
 
 input.p-inputtext.p-component {
@@ -54,42 +89,6 @@ input.p-inputtext.p-component {
     border: none;
 }
 
-a {
-    font-size: 16px;
-    line-height: 16px;
-    color: #236cd8;
-    text-decoration: none;
-    cursor: pointer;
-    transition: .2s
-}
-
-a:hover {
-color: #00B1E3;
-}
-
-.forgot-container {
-    display: flex;
-    width: 100%;
-    padding-left: 25px;
-}
-
-button {
-    width: 375px;
-    background: #00b1e3;
-    border: none;
-    height: 40px;
-    width: 150px;
-    font-size: 20px;
-    color: white;
-    border-radius: 6px;
-    transition: .2s;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #236cd8;
-
-}
 
 @media screen and (max-width: 730px) {
  .inputs {

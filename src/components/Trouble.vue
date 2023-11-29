@@ -8,8 +8,6 @@
                 <font-awesome-icon icon="fa-solid fa-ellipsis" color="#fff" style="font-size: 75px;" />
             </div>
         </div>
-   
-
         <h3>Having Trouble?</h3>
         <p>Our customer support team deeply believes in our cause and is here to help you live it. Chat with us day or night.</p>
     </div>
@@ -21,17 +19,28 @@
 </script>
     
 <style scoped>
-h3 {
-    color:  #777879;
+.h3 {
+    color: #777879;
     font-size: 28px;
     font-weight: 500;
     margin: 0;
 }
 
-p {
+.icon-container {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.p {
     color: #777879;
     width: 400px;
     text-align: center;
+}
+
+.dot-container {
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 17px;
 }
 
 .trouble-container {
@@ -42,18 +51,6 @@ p {
     background-color: #F9F9F9;
     padding-top: 100px;
     padding-bottom: 100px;
-
-}
-
-.icon-container {
-    position: relative;
-    margin-bottom: 25px;
-}
-
-.dot-container {
-    position: absolute;
-    margin-top: -90px;
-    margin-left: 17px;
 }
 
 @media screen and (max-width: 730px) {
