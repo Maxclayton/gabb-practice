@@ -19,7 +19,7 @@
 </script>
     
 <style scoped>
-.h3 {
+h3 {
     color: #777879;
     font-size: 28px;
     font-weight: 500;
@@ -31,7 +31,7 @@
     margin-bottom: 25px;
 }
 
-.p {
+p {
     color: #777879;
     width: 400px;
     text-align: center;

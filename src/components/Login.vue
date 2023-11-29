@@ -27,7 +27,7 @@ import InputText from 'primevue/inputtext';
     padding-left: 25px;
 }
 
-.h2 {
+h2 {
     color: #313638;
     font-size: 36px;
     font-weight: 400;
