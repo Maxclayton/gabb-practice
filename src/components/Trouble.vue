@@ -10,6 +10,7 @@
         </div>
         <h3>Having Trouble?</h3>
         <p>Our customer support team deeply believes in our cause and is here to help you live it. Chat with us day or night.</p>
+        <a>Chat Now</a>
     </div>
 </template>
     
@@ -19,6 +20,20 @@
 </script>
     
 <style scoped>
+
+a {
+    font-size: 16px;
+    line-height: 16px;
+    color: #236cd8;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+a:hover {
+    color: #00B1E3;
+}
+
 h3 {
     color: #777879;
     font-size: 28px;
