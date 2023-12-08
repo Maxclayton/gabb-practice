@@ -1,4 +1,7 @@
+<script setup>
+import InputText from 'primevue/inputtext';
 
+</script>
 
 <template>
 <div class="login-fields">
@@ -15,10 +18,6 @@
 
 </template>
 
-<script setup>
-import InputText from 'primevue/inputtext';
-
-</script>
 
 <style scoped>
 .forgot-container {

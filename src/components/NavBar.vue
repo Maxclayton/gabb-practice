@@ -1,4 +1,19 @@
+<script>
+export default {
+    data() {
+        return {
+            navItems: [
+                { text: 'Shop', link: '/item1' },
+                { text: 'Why Gabb', link: '/item2' },
+                { text: 'Blog', link: '/item3' },
+                { text: 'Our Mission', link: '/item3' },
+                { text: 'Activate', link: '/item3' }
+            ]
+        };
 
+    },
+};
+</script>
 
 <template>
     <div class="nav-container">
@@ -18,24 +33,7 @@
     </div>
 </template>
 
-<script>
 
-
-export default {
-    data() {
-        return {
-            navItems: [
-                { text: 'Shop', link: '/item1' },
-                { text: 'Why Gabb', link: '/item2' },
-                { text: 'Blog', link: '/item3' },
-                { text: 'Our Mission', link: '/item3' },
-                { text: 'Activate', link: '/item3' }
-            ]
-        };
-
-    },
-};
-</script>
 
 <style scoped>
 a {

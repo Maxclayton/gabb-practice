@@ -1,5 +1,3 @@
-
-
 <template>
     <div class="trouble-container">
         <div class="icon-container">
@@ -14,10 +12,6 @@
     </div>
 </template>
     
-<script setup>
-
-
-</script>
     
 <style scoped>
 
